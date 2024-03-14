@@ -1,0 +1,27 @@
+.Toastify__toast-body {
+  font-family: "Poppins";
+}
+.Toastify__close-button > svg {
+  color: black;
+}
+.Toastify__toast-theme--colored.Toastify__toast--success {
+  color: black !important;
+  background-color: white !important;
+}
+.Toastify__toast-theme--colored.Toastify__toast--error {
+  color: black !important;
+  background-color: white !important;
+}
+.Toastify__toast-theme--colored.Toastify__toast--success .Toastify__toast-icon > svg {
+  fill: #c62bf5;
+}
+.Toastify__toast-theme--colored.Toastify__toast--error .Toastify__toast-icon > svg {
+  fill: #d52027;
+}
+
+.Toastify__progress-bar-theme--colored.Toastify__progress-bar--success {
+  background-color: #c62bf5 !important;
+}
+.Toastify__progress-bar-theme--colored.Toastify__progress-bar--error {
+  background-color: #d52027 !important;
+}
